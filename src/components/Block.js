@@ -14,7 +14,7 @@ function Block(props) {
             name={item.name}
             photo={item.photo}
             date={item.date}
-            alias={item.alias}
+            identity={item.identity}
             nickname={item.nickname}
           />
         ))}

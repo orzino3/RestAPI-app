@@ -18,7 +18,7 @@ function ApiManager() {
           name: figure.name,
           date: figure.dateOfBirth,
           photo: figure.image,
-          alias: figure.actor,
+          identity: figure.actor,
           nickname: figure.alternate_names,
         }));
         setFigures(formatFiguresList);

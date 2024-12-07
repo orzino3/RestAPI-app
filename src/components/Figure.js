@@ -11,7 +11,7 @@ function Figure(props) {
         <FigureDate date={props.date} />
         <div className="image-container tooltip">
           <img className="figureImage" src={props.photo} alt={props.name} />
-          <span class="tooltip-text">{props.alias}</span>
+          <span class="tooltip-text">{props.identity}</span>
         </div>
       </div>
     </div>
