@@ -1,0 +1,108 @@
+.figure {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 10px solid #92540e;
+    border-inline-color: rgb(95, 43, 0);
+    border-image: auto;
+    border-radius: 8px;
+    background-image: url("https://t3.ftcdn.net/jpg/06/97/43/12/360_F_697431227_QFJRySZ7rR977TZCp0Bd7MSFF83G0sla.jpg");
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem; 
+  }
+  
+  .figureName {
+    height: 120px;
+    width: 200px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffea00;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;   
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+  }
+  
+  .date {
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: gold;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 150px; 
+    flex-shrink: 0; 
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .figureImage {
+    width: 80px;
+    height: 120px;
+    border-radius: 10px;
+    margin-left: 15px;
+  }
+
+  .tooltip {
+    
+    position: relative;
+    display: inline-block;
+    
+}
+
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: max-content; 
+    background-color: rgb(47, 47, 47); 
+    color: white; 
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%; 
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 1.0s;
+    font-size: 40px;
+}
+
+.tooltip .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+  
