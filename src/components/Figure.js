@@ -9,7 +9,7 @@ function Figure(props) {
     <div className="figure ">
       <div className="description">
         <div className="figureName tooltip">
-          <span class="tooltip-text">
+          <span className="tooltip-text">
             <Alternate nickname={props.nickname} />
           </span>
           {props.name}
@@ -17,7 +17,7 @@ function Figure(props) {
         <FigureDate date={props.date} />
         <div className="image-container tooltip">
           <img className="figureImage" src={props.photo} alt={props.name} />
-          <span class="tooltip-text">{props.identity}</span>
+          <span className="tooltip-text">{props.identity}</span>
         </div>
       </div>
     </div>
