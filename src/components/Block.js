@@ -18,6 +18,8 @@ function Block(props) {
             nickname={item.nickname}
           />
         ))}
+
+      <span className="copyrights">API used in this projects is HP-API ©</span>
     </div>
   );
 }

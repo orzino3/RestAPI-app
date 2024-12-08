@@ -1,7 +1,13 @@
-.block{
+.block {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 20px;
+  }
+  
+  .copyrights {
     
-    
-}
+    font-size: 50px;
+    grid-column: 1 / -1; /* Ensure it spans the full width of the grid */
+
+  }
+  
