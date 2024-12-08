@@ -12,7 +12,6 @@ function ApiManager() {
           "https://hp-api.herokuapp.com/api/characters"
         );
         const data = await response.json();
-        console.log(data);
 
         const formatFiguresList = data.map((figure) => ({
           name: figure.name,
