@@ -84,7 +84,7 @@
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity 1.0s;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .tooltip .tooltip-text::after {
