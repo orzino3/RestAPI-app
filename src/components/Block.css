@@ -7,7 +7,7 @@
   .copyrights {
     
     font-size: 50px;
-    grid-column: 1 / -1; /* Ensure it spans the full width of the grid */
+    grid-column: 1 / -1;
 
   }
   
